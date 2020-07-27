@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Quiz</title>
+</head>
+
+<body>
+    <fieldset>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1 class="text-center my-5 display-4">Quiz</h1>
+                    <h4 id="q1">Q 1 - HTML stands for hypertext ... language </h4>
+                    <input name="queston1" type="radio" id="opt1">markdown
+                    <br>
+                    <input name="queston1" type="radio" id="opt2">programming
+                    <br>
+                    <input name="queston1" type="radio" id="opt3">markup
+                    <br>
+                    <input name="queston1" type="radio" id="opt4">coding
+                </div>
+            </div>
+        </div>
+    </fieldset>
+    <br><br>
+    <fieldset>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h4 id="q2">Q 2 - Which of the following is correct about features of JavaScript? </h4>
+                    <input name="queston2" type="radio" id="opt5">JavaScript is a lightweight, interpreted programming
+                    language.
+                    <br>
+                    <input name="queston2" type="radio" id="opt6">JavaScript is designed for creating network-centric
+                    applications.
+                    <br>
+                    <input name="queston2" type="radio" id="opt7">JavaScript is complementary to and integrated with
+                    Java.
+                    <br>
+                    <input name="queston2" type="radio" id="opt8">All of the above.
+                </div>
+            </div>
+        </div>
+    </fieldset>
+    <br><br>
+    <fieldset>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h4 id="q3">Q 3 - How do you write "Hello World" in an alert box?</h4>
+                    <input name="queston3" type="radio" id="opt9">msg("Hello World")
+                    <br>
+                    <input name="queston3" type="radio" id="opt10">alert("Hello World")
+                    <br>
+                    <input name="queston3" type="radio" id="opt11">msgBox("Hello World")
+                    <br>
+                    <input name="queston3" type="radio" id="opt12">alertBox("Hello World")
+                </div>
+            </div>
+        </div>
+    </fieldset>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col  text-right">
+                <button class="btn btn-primary" type="submit" onclick="submit()">Submit</button>
+            </div>
+        </div>
+    </div>
+    <div class="text-center" id="resultShow"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
